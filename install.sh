@@ -1,0 +1,1 @@
+sudo install autolatex /usr/local/bin

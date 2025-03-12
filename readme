@@ -7,3 +7,6 @@ Usage:
 
 e.g.
 ./autolatex foo.tex
+
+Install (to use it anywhere with 'autolatex' command):
+./install.sh
