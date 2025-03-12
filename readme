@@ -1,5 +1,7 @@
 ## autolatex
 
+A script that auto-compiles single latex file
+
 Usage:
 ./autolatex <filename>
 
