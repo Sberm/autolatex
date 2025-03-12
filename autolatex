@@ -1,0 +1,16 @@
+#!/bin/sh
+file="$1"
+if [ -z "$file" ]; then
+  echo "autolatex <filename>"
+  exit 1
+fi
+while true
+do
+    mod="$(date -r $file '+%m-%d-%Y %H:%M:%S')"
+    if [ "$last_mod" != "$mod" ]; then
+      printf "\n"
+      pdflatex -halt-on-error "$file"
+      last_mod="$mod"
+    fi
+    sleep 0.5
+done

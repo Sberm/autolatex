@@ -1,0 +1,7 @@
+## autolatex
+
+Usage:
+./autolatex <filename>
+
+e.g.
+./autolatex foo.tex
