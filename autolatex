@@ -1,7 +1,8 @@
 #!/bin/sh
 file="$1"
 if [ -z "$file" ]; then
-  echo "autolatex <filename>"
+  echo "\n  Please enter a legal filename\n"
+  echo "    autolatex <filename>\n"
   exit 1
 fi
 while true
